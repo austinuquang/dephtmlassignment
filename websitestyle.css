@@ -1,0 +1,661 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.navareacroissants{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:2%;
+}
+.logocroissants{
+    width:250px;
+    cursor: pointer;
+    height:5%;
+}
+.navareacroissants ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareacroissants ul li a{
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+}
+.navareacroissants ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:chocolate;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareacroissants ul li:hover::after{
+    width:100%
+}
+.backgroundcroissants{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(crassbackground.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.h3croissants{
+    text-align:center;
+    font-size:20x;
+    margin:0;
+    padding-top:10px;
+    color:chocolate;
+    text-transform:uppercase;
+}
+.link{
+    text-decoration:none;
+}
+
+.contentcroissants{
+    width:30%;
+    margin:15px;
+    box-sizing:border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    
+}
+.foodpics{
+    width:200px;
+    height:200px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    border:chocolate;
+    border-radius: 20px;
+}
+.pricecroissants{
+    font-size:15px;
+    text-align:center;
+    color:chocolate;
+    margin:0;
+}
+.croissantsbutton{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight: bold;
+    border: 2px solid chocolate;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    
+    
+}
+.croissantsbutton:hover{
+    border:none;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.navareadrinks{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5%;
+}
+.logodrinks{
+    width:250px;
+    cursor: pointer;
+    height: 20%;
+}
+.navareadrinks ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareadrinks ul li a{
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+}
+.navareadrinks ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:chocolate;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareadrinks ul li:hover::after{
+    width:100%
+}
+.drinkbackground{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(drinks2.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+.h3drinks{
+    text-align:center;
+    font-size:20x;
+    margin:0;
+    padding-top:10px;
+    color:chocolate;
+    text-transform:uppercase;
+}
+.drinkslinks{
+    text-decoration:none;
+}
+
+.cont{
+    width:30%;
+    margin:15px;
+    box-sizing:border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    
+}
+.cont :hover{
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px -8px);
+}
+.drinkspics{
+    width:200px;
+    height:200px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    border:chocolate;
+    border-radius: 20px;
+}
+.pricedrinks{
+    font-size:15px;
+    text-align:center;
+    color:chocolate;
+    margin:0;
+}
+.drinksbutton{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight: bold;
+    border: 2px solid chocolate;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    
+    
+}
+.drinksbutton:hover{
+    border:none;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.homepic{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navareahome{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logohome{
+    width:250px;
+    cursor: pointer;
+}
+.navareahome ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareahome ul li a{
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+}
+.navareahome ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:chocolate;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareahome ul li:hover::after{
+    width:100%
+}
+.homecontent{
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:chocolate;
+}
+.homecontent h1{
+    font-size: 30px;        
+    margin-top: 80px;
+}
+.homecontent p{
+    margin:10px auto;
+    font-weight: 100;
+    line-height: 25px;;
+}
+.buttonhome{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight: bold;
+    border: 2px solid chocolate;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+.spanhome{
+    background:chocolate;
+    height:100%;
+    width:0;
+    border-radius: 25px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.buttonhome:hover span{
+    width:100%;
+}
+.buttonhome:hover{
+    border:none;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.navareaotp{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8%;
+}
+.otplogo{
+    width:250px;
+    cursor: pointer;
+    height:20%;
+}
+.navareaotp ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareaotp ul li a{
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+}
+.navareaotp ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:chocolate;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareaotp ul li:hover::after{
+    width:100%
+}
+.otpbackground{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(otherpastriesbg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.h3otp{
+    text-align:center;
+    font-size:20x;
+    margin:0;
+    padding-top:10px;
+    color:chocolate;
+    text-transform:uppercase;
+}
+.otplink{
+    text-decoration:none;
+}
+
+.otpcontent{
+    width:30%;
+    margin:15px;
+    box-sizing:border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    
+}
+.otpcontent :hover{
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px -8px);
+}
+.otppics{
+    width:200px;
+    height:200px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    border:chocolate;
+    border-radius: 20px;
+}
+.otpprice{
+    font-size:15px;
+    text-align:center;
+    color:chocolate;
+    margin:0;
+}
+.otpbutton{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight: bold;
+    border: 2px solid chocolate;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    
+    
+}
+
+.otpbutton:hover{
+    border:none;
+}
+
+
+.navareacs{
+    width:100%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5%;
+    background-color: chocolate;
+}
+.logocs{
+    width:250px;
+    cursor: pointer;
+}
+.navareacs ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareacs ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.navareacs ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:black;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareacs ul li:hover::after{
+    width:100%
+}
+.classics{
+    width:500px;
+    height:450px;
+    display: block;
+    border:chocolate;
+    padding:20px;
+}
+.h2cs{
+    color:chocolate;
+}
+
+.firstpic{
+    width: 50%;
+    float:left;
+}
+.h1cs{
+    color: chocolate;
+}
+.contentcs{
+    width:30% ;
+    float:left;
+    margin-right: 20px;
+    padding:80px;
+}
+
+
+
+.navareaabout{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5%;
+}
+.logoabout{
+    width:250px;
+    cursor: pointer;
+    height:20%;
+}
+.navareaabout ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareaabout ul li a{
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+}
+.navareaabout ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:chocolate;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareaabout ul li:hover::after{
+    width:100%
+}
+.homepicabout{
+    margin:0 0 0 0;
+    width:101%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.classicsabout{
+    width:450px;
+    height:500px;
+    display: block;
+    border:chocolate;
+    border-radius: 35px;
+    padding:20px;
+}
+.h2about{
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.firstpicabout{
+    width: 40%;
+    float:left;
+   
+}
+.h1about{
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contentabout{
+    width:40% ;
+    float:left;
+    margin-right: 20px;
+    padding:20px;
+}
+
+
+
+
+.navareamembership{
+    width:100%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:7%;
+    background-color:chocolate
+}
+.logomembership{
+    width:250px;
+    cursor: pointer;
+}
+.navareamembership ul li{
+    list-style:none ;
+    display: inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navareamembership ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.navareamembership ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:black;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navareamembership ul li:hover::after{
+    width:100%
+}
+form{
+    background-color: white;
+    width:50%;
+    margin: 0 auto 0 auto;
+    display:grid;
+    padding:10px;
+}
+input[type=text]{
+    padding:10px;
+}
+input[type=password]{
+    padding:10px;
+}
+.membershipbutton[type=submit]{
+    width:50%;
+    margin:10px 10px 10px 198px;
+    background-color: chocolate;
+    padding:10px;
+    border-radius: 25px;
+}
+input[type=email]{
+    padding:10px;
+}
+select{
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
