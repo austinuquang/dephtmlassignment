@@ -283,7 +283,8 @@
 .homecontent p{
     margin:10px auto;
     font-weight: 100;
-    line-height: 25px;;
+    line-height: 25px;
+    color:chocolate;
 }
 .buttonhome{
     width:200px;
